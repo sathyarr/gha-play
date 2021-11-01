@@ -1,0 +1,177 @@
+{
+    "phi-data": {
+        "patientDOS": "06/05/2021",
+        "patientFirstName": "Rondini",
+        "patientMrn": "MMMM000",
+        "patientGender": "female",
+        "patientLastName": "Donna M"
+    },
+    "allbpmmapping": {
+        "Knee": [
+            "node21"
+        ],
+        "Chest": [
+            "node5",
+            "node17"
+        ],
+        "Head": [
+            "node12"
+        ],
+        "Thigh": [
+            "node14"
+        ],
+        "Lower Leg": [
+            "node8",
+            "node22"
+        ],
+        "Finger": [
+            "node18"
+        ],
+        "Pelvis": [
+            "node13"
+        ],
+        "Foot": [
+            "node9"
+        ],
+        "Leg": [
+            "node8",
+            "node9",
+            "node22",
+            "node14"
+        ],
+        "Upper Back": [
+            "node7"
+        ],
+        "Forearm": [
+            "node11",
+            "node19"
+        ],
+        "Shoulder": [
+            "node10",
+            "node20"
+        ],
+        "Back": [
+            "node6"
+        ],
+        "Neck": [
+            "node15"
+        ],
+        "Face": [
+            "node4",
+            "node16"
+        ]
+    },
+    "topkbpmmapping": {
+        "Leg": [
+            "node8",
+            "node9",
+            "node22",
+            "node14"
+        ],
+        "Thigh": [
+            "node14"
+        ],
+        "Chest": [
+            "node5",
+            "node17"
+        ],
+        "Head": [
+            "node12"
+        ],
+        "Back": [
+            "node6"
+        ]
+    },
+    "high-data": {
+        "Leg": "fracture", "Thigh": "inflammation", "Chest": "swelling", "Back": "pain", "Head": "ct"
+    },
+    "system-data": {
+        "Chief Complaint": [
+            {
+                "neutrality": "negative",
+                "bodyParts": [
+                    "Leg",
+                    "Wrist",
+                    "Finger"
+                ]
+            },
+            {
+                "neutrality": "positive",
+                "bodyParts": [
+                    "Face",
+                    "Foot",
+                    "Shoulder"
+                ]
+            }
+        ],
+        "HPI": [
+            {
+                "neutrality": "positive",
+                "bodyParts": [
+                    "Back"
+                ]
+            },
+            {
+                "neutrality": "negative",
+                "bodyParts": [
+                    "Thigh",
+                    "Leg"
+                ]
+            }
+        ],
+        "RoS": [
+            {
+                "neutrality": "positive",
+                "bodyParts": [
+                    "Head",
+                    "Chest",
+                    "Back"
+                ]
+            },
+            {
+                "neutrality": "negative",
+                "bodyParts": [
+                    "Knee",
+                    "Shoulder"
+                ]
+            }
+        ],
+        "Physical Exam": [
+            {
+                "neutrality": "positive",
+                "bodyParts": [
+                    "Chest"
+                ]
+            },
+            {
+                "neutrality": "negative",
+                "bodyParts": [
+                    "Upper Back"
+                ]
+            }
+        ],
+        "Radiology": [
+            {
+                "neutrality": "positive",
+                "bodyParts": [
+                    "Forearm",
+                    "Pelvis"
+                ]
+            },
+            {
+                "neutrality": "negative",
+                "bodyParts": [
+                    "Lower Leg",
+                    "Knee"
+                ]
+            }
+        ]
+    },
+    "low-data": {
+        "Leg": 0.641983,
+        "Thigh": 0.743124,
+        "Chest": 0.951471,
+        "Back": 0.892573,
+        "Head": 0.912734
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "phi-data": {
+        "patientDOS": "06/05/2021",
+        "patientFirstName": "Rondini",
+        "patientMrn": "MMMM000",
+        "patientGender": "female",
+        "patientLastName": "Donna M"
+    },
+    "allbpmmapping": {
+        "Knee": ["node21"],
+        "Chest": [
+            "node5",
+            "node17"
+        ],
+        "Head": ["node12"],
+        "Thigh": ["node14"],
+        "Lower Leg": [
+            "node8",
+            "node22"
+        ],
+        "Finger": ["node18"],
+        "Pelvis": ["node13"],
+        "Foot": ["node9"],
+        "Leg": [
+            "node8",
+            "node9",
+            "node22",
+            "node14"
+        ],
+        "Upper Back": ["node7"],
+        "Forearm": [
+            "node11",
+            "node19"
+        ],
+        "Shoulder": [
+            "node10",
+            "node20"
+        ],
+        "Back": ["node6"],
+        "Neck": ["node15"],
+        "Face": [
+            "node4",
+            "node16"
+        ]
+    },
+    "topkbpmmapping": {"Leg": [
+        "node8",
+        "node9",
+        "node22",
+        "node14"
+    ]},
+    "high-data": {"Leg": "hpi_sectionHLDetail"},
+    "system-data": {
+        "chief_complaint_section": [
+            {
+            "neutrality": "negative",
+            "bodyParts": ["Leg"]
+            },
+            {
+                "neutrality": "positive",
+                "bodyParts": ["Leg", "Hand"]
+            }
+        ],
+        "hpi_section": [{
+            "neutrality": "positive",
+            "bodyParts": ["Leg"]
+        }]
+    },
+    "low-data": {"Leg": 0.641983}
+}

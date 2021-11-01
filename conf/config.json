@@ -1,0 +1,26 @@
+{
+  "urls": {
+    "phi": "http://<server:port>/philter/api/demographic",
+    "micrograph": "http://<server:port>/graph"
+  },
+
+  "bodypart-mesh-mapping" : {
+    "Face": ["node4", "node16"],
+    "Chest": ["node5", "node17"],
+    "Back": ["node6"],
+    "Upper Back": ["node7"],
+    "Lower Leg": ["node8", "node22"],
+    "Foot": ["node9"],
+    "Shoulder": ["node10", "node20"],
+    "Forearm": ["node11", "node19"],
+    "Head": ["node12"],
+    "Pelvis": ["node13"],
+    "Thigh": ["node14"],
+    "Neck": ["node15"],
+    "Finger": ["node18"],
+    "Knee": ["node21"],
+    "Leg": ["node8", "node9", "node22", "node14"]
+  },
+
+  "phi-data-lookup-keys": ["patientMrn", "patientFirstName", "patientLastName", "patientGender", "patientDOB", "patientDOS", "accountNumber", "providerNames", "accessionNumber", "primaryInsurance", "secondaryInsurance", "tertiaryInsurance", "physicianFirstname", "physicianLastname", "physicianNpi", "Modality", "orderedExam"]
+}
